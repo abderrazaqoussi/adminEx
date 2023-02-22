@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "trainers-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/trainersManager/TrainersManagerWebPart.js",
+          "manifest": "./src/webparts/trainersManager/TrainersManagerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TrainersManagerWebPartStrings": "lib/webparts/trainersManager/loc/{locale}.js"
+  }
+}

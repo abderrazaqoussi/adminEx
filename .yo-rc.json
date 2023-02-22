@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "admin-extensions",
+    "libraryId": "f178b8fe-7994-42e0-adbd-55e1723e34ed",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "admin extensions",
+    "solutionShortDescription": "admin extensions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
